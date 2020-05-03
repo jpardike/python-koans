@@ -82,7 +82,7 @@ in the koans directory, it will rerun the tests.
 
 To set this up, you need to install sniffer::
 
-    $ pip install sniffer
+    $ pip3 install sniffer
 
 You should also run one of these libraries depending on your system. This will
 automatically trigger sniffer when a file changes, otherwise sniffer will have
@@ -90,20 +90,20 @@ to poll to see if the files have changed.
 
 On Linux::
 
-    $ pip install pyinotify
+    $ pip3 install pyinotify
 
 On Windows::
 
-    $ pip install pywin32
+    $ pip3 install pywin32
     
 (If that failed, try::
     
-    $ pip install pypiwin32
+    $ pip3 install pypiwin32
 )
 
 On Mac OS X::
 
-    $ pip install MacFSEvents
+    $ pip3 install MacFSEvents
 
 Once it is set up, you just run::
 
